@@ -3,7 +3,6 @@ import { TRANSLATIONS } from '../components/constants/translations';
 
 // Create Context
 const LanguageContext = createContext();
-
 // Custom Hook for Language
 export const useLanguage = () => useContext(LanguageContext);
 
